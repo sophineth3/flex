@@ -1,0 +1,67 @@
+
+.parent{
+  width: 900px;
+  height: 640px;
+  position: relative;
+  top: 30px;
+  left: 30px;
+  background: lightyellow;
+  box-shadow: 5px 5px 2px 2px rgba(0, 0, 0, 0.10)
+}
+.parent:hover{
+  box-shadow: 5px 5px 2px 2px rgba(0, 0, 0, 0.30)
+}
+.child-1{
+  position: absolute;
+  width: 450px;
+  height: 600px;
+  top: 20px;
+  left: 20px;
+}
+.child-1 img{
+  left: 5px;
+  width: 100%;
+  height: 100%;
+}
+.child-4{
+  position: absolute;
+  right: 80px;
+  top: 20px;
+  font-size: 20px;
+}
+.child-2 ul{
+  position: absolute;
+  width: 450px;
+  height: 600px;
+  top: 250px;
+  right: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+.child-4 h3{
+  color: red
+}
+.child-3{
+  position: absolute;
+  right: 20px;
+  top: 350px;
+}
+.child-3 table{
+  width: 400px;
+  font-size: 10px;
+  border: 1px solid black;
+
+}
+button{
+  background-color: lightergrey;
+  width: 200px;
+  height: 50px;
+  border: 0;
+  font-size: 20px;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
